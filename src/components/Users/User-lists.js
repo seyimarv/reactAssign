@@ -8,7 +8,7 @@ const Userlist = ({user, deleteUser}) => {
    
     return (
         <div className="each__user">
-        <p>
+        <p className="user__name">
         {user}
         </p>  
          <p onClick={() => {

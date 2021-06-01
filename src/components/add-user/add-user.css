@@ -25,6 +25,11 @@ button:focus {
 button:hover {
    background-color: rgb(15, 15, 238);
 }
+@media (max-width: 480px) {
+    input {
+      width: 60%;
+    }
+  }
 
 
 .error_message {

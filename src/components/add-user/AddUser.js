@@ -20,11 +20,7 @@ const AddUser = ({users, setUsers, fetchedUsers}) => {
     const newUsers = fetchedUsers.filter(user => user !== UserExists)  
     localStorage.setItem('users', JSON.stringify(newUsers))
     setUsers(newUsers)
-    return newUsers
-    
-  
-  
-      
+    return newUsers 
   }
  
   const addUser = () => {
@@ -64,8 +60,6 @@ const AddUser = ({users, setUsers, fetchedUsers}) => {
         </div>
     )
 }
-
-
 
 const mapStateToProps = state => ({
     users: state.currentUsers

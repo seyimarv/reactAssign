@@ -9,7 +9,10 @@
     inset 0 -3em 3em rgba(209, 206, 206, 0.1),
           0 0  0 2px rgb(255,255,255),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
-
+    
+}
+.user__name {
+    width: 70%;
 }
 
 .delete__user {
@@ -17,4 +20,6 @@
     padding-top: 10px;
     margin: 10px;
     cursor: pointer;
+    width: 20%;
+  
 }
