@@ -1,0 +1,32 @@
+.add__user {
+    margin: 10px;
+    text-align: center;
+}
+
+input {
+    width: 40%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 178, 178);
+    outline: rgb(87, 85, 85);
+}
+
+button {
+    margin: 0px 10px;
+    background-color: rgb(15, 15, 238, 0.5);
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgb(15, 15, 238, 0.5);
+    padding: 5px;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+   background-color: rgb(15, 15, 238);
+}
+
+
+.error_message {
+    color: rgb(213, 47, 47);
+}
