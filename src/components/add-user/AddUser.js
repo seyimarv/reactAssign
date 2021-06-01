@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { connect } from 'react-redux';
 import { getUsers } from '../../reduxx/action';
-import './add-user.css'
+import './AddUser.css'
 
 
 const AddUser = ({users, setUsers, fetchedUsers}) => {

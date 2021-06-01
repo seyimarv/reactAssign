@@ -1,6 +1,6 @@
 
 import './App.css';
-import Userlist from './components/Users/User-lists';
+import Userlist from './components/Users/UserLists';
 import { connect } from 'react-redux';
 import {getUsers} from './reduxx/action'
 import chance from 'chance';
